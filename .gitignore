@@ -1,0 +1,8 @@
+dist
+build
+*.egg-info
+__pycache__
+.vscode
+env
+appcontainer
+db.sqlite3

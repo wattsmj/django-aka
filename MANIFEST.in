@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+recursive-include aka/static *
+recursive-include aka/templates *
