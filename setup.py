@@ -32,13 +32,12 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='django-aka',
     version='0.1.0',
-    packages=find_packages(),
-    include_package_data=True,
-    license='',
+    author='wattsmj',
+    license='GPL-3.0',
+    url='https://github.com/wattsmj/django-aka',
     description='A smart bookmarking Django app',
     long_description=README,
-    url='',
-    author='wattsmj',
-    author_email='',
-    install_requires=['django', 'fuzzywuzzy']
+    packages=find_packages(),
+    install_requires=['django', 'fuzzywuzzy'],
+    include_package_data=True
 )
